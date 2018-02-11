@@ -10,7 +10,7 @@ import (
 	"github.com/derekparker/delve/service/debugger"
 )
 
-var defaultLoadConfig = proc.LoadConfig{true, 1, 64, 64, -1}
+var defaultLoadConfig = proc.LoadConfig{true, 1, 264, 264, -1}
 
 type RPCServer struct {
 	// config is all the information necessary to start the debugger and server.
